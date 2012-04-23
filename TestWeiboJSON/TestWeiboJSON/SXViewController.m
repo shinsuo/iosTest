@@ -6,6 +6,8 @@
 //  Copyright (c) 2012年 CocoaChina. All rights reserved.
 //
 
+//add comment
+
 #import "SXViewController.h"
 
 @interface SXViewController ()
