@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9300ACF15450260008EAF1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9300ACE15450260008EAF1E /* UIKit.framework */; };
+		B9300AD115450260008EAF1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9300AD015450260008EAF1E /* Foundation.framework */; };
+		B9300AD315450260008EAF1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9300AD215450260008EAF1E /* CoreGraphics.framework */; };
+		B9300AD915450260008EAF1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9300AD715450260008EAF1E /* InfoPlist.strings */; };
+		B9300ADB15450260008EAF1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9300ADA15450260008EAF1E /* main.m */; };
+		B9300ADF15450260008EAF1E /* SXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9300ADE15450260008EAF1E /* SXAppDelegate.m */; };
+		B9300AE215450260008EAF1E /* SXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9300AE115450260008EAF1E /* SXViewController.m */; };
+		B9300AE515450261008EAF1E /* SXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9300AE315450261008EAF1E /* SXViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9300ACA15450260008EAF1E /* TestWeiboJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWeiboJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9300ACE15450260008EAF1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9300AD015450260008EAF1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9300AD215450260008EAF1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9300AD615450260008EAF1E /* TestWeiboJSON-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestWeiboJSON-Info.plist"; sourceTree = "<group>"; };
+		B9300AD815450260008EAF1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9300ADA15450260008EAF1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9300ADC15450260008EAF1E /* TestWeiboJSON-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestWeiboJSON-Prefix.pch"; sourceTree = "<group>"; };
+		B9300ADD15450260008EAF1E /* SXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXAppDelegate.h; sourceTree = "<group>"; };
+		B9300ADE15450260008EAF1E /* SXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXAppDelegate.m; sourceTree = "<group>"; };
+		B9300AE015450260008EAF1E /* SXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXViewController.h; sourceTree = "<group>"; };
+		B9300AE115450260008EAF1E /* SXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXViewController.m; sourceTree = "<group>"; };
+		B9300AE415450261008EAF1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SXViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9300AC715450260008EAF1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9300ACF15450260008EAF1E /* UIKit.framework in Frameworks */,
+				B9300AD115450260008EAF1E /* Foundation.framework in Frameworks */,
+				B9300AD315450260008EAF1E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9300ABF15450260008EAF1E = {
+			isa = PBXGroup;
+			children = (
+				B9300AD415450260008EAF1E /* TestWeiboJSON */,
+				B9300ACD15450260008EAF1E /* Frameworks */,
+				B9300ACB15450260008EAF1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9300ACB15450260008EAF1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9300ACA15450260008EAF1E /* TestWeiboJSON.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9300ACD15450260008EAF1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9300ACE15450260008EAF1E /* UIKit.framework */,
+				B9300AD015450260008EAF1E /* Foundation.framework */,
+				B9300AD215450260008EAF1E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9300AD415450260008EAF1E /* TestWeiboJSON */ = {
+			isa = PBXGroup;
+			children = (
+				B9300ADD15450260008EAF1E /* SXAppDelegate.h */,
+				B9300ADE15450260008EAF1E /* SXAppDelegate.m */,
+				B9300AE015450260008EAF1E /* SXViewController.h */,
+				B9300AE115450260008EAF1E /* SXViewController.m */,
+				B9300AE315450261008EAF1E /* SXViewController.xib */,
+				B9300AD515450260008EAF1E /* Supporting Files */,
+			);
+			path = TestWeiboJSON;
+			sourceTree = "<group>";
+		};
+		B9300AD515450260008EAF1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9300AD615450260008EAF1E /* TestWeiboJSON-Info.plist */,
+				B9300AD715450260008EAF1E /* InfoPlist.strings */,
+				B9300ADA15450260008EAF1E /* main.m */,
+				B9300ADC15450260008EAF1E /* TestWeiboJSON-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9300AC915450260008EAF1E /* TestWeiboJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9300AE815450261008EAF1E /* Build configuration list for PBXNativeTarget "TestWeiboJSON" */;
+			buildPhases = (
+				B9300AC615450260008EAF1E /* Sources */,
+				B9300AC715450260008EAF1E /* Frameworks */,
+				B9300AC815450260008EAF1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestWeiboJSON;
+			productName = TestWeiboJSON;
+			productReference = B9300ACA15450260008EAF1E /* TestWeiboJSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9300AC115450260008EAF1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SX;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = CocoaChina;
+			};
+			buildConfigurationList = B9300AC415450260008EAF1E /* Build configuration list for PBXProject "TestWeiboJSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9300ABF15450260008EAF1E;
+			productRefGroup = B9300ACB15450260008EAF1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9300AC915450260008EAF1E /* TestWeiboJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9300AC815450260008EAF1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9300AD915450260008EAF1E /* InfoPlist.strings in Resources */,
+				B9300AE515450261008EAF1E /* SXViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9300AC615450260008EAF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9300ADB15450260008EAF1E /* main.m in Sources */,
+				B9300ADF15450260008EAF1E /* SXAppDelegate.m in Sources */,
+				B9300AE215450260008EAF1E /* SXViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9300AD715450260008EAF1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9300AD815450260008EAF1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9300AE315450261008EAF1E /* SXViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9300AE415450261008EAF1E /* en */,
+			);
+			name = SXViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9300AE615450261008EAF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9300AE715450261008EAF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9300AE915450261008EAF1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestWeiboJSON/TestWeiboJSON-Prefix.pch";
+				INFOPLIST_FILE = "TestWeiboJSON/TestWeiboJSON-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9300AEA15450261008EAF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestWeiboJSON/TestWeiboJSON-Prefix.pch";
+				INFOPLIST_FILE = "TestWeiboJSON/TestWeiboJSON-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9300AC415450260008EAF1E /* Build configuration list for PBXProject "TestWeiboJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9300AE615450261008EAF1E /* Debug */,
+				B9300AE715450261008EAF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9300AE815450261008EAF1E /* Build configuration list for PBXNativeTarget "TestWeiboJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9300AE915450261008EAF1E /* Debug */,
+				B9300AEA15450261008EAF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9300AC115450260008EAF1E /* Project object */;
+}
